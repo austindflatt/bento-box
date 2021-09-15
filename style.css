@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    grid-template-columns: 110px 185px 185px;
+    grid-template-rows: 80px 100px 70px 80px 50px;
+    grid-template-areas: 
+    "fish-flag fish-flag vase"
+    "map map vase"
+    "alt-vase bamboo bamboo"
+    "alt-vase bamboo bamboo"
+    "alt-vase bamboo bamboo"
+    "alt-vase quadropus quadropus"
+    ;
+}
+
+.fish-flag {
+    grid-area:  fish-flag;
+}
+
+.map {
+    grid-area: map;
+}
+
+.vase {
+    grid-area: vase;
+}
+
+.alt-vase {
+    grid-area: alt-vase;
+}
+
+.bamboo {
+    grid-area: bamboo;
+}
+
+.quadropus {
+    grid-area: quadropus;
+}
